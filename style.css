@@ -1,0 +1,21 @@
+/* body {
+	margin: 0;
+    width: auto;
+	height: 100vh;
+    display: grid;
+
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 50px 1fr 1fr 100px; /*50px, 100px means fixed dimensions even if window is resized
+} */
+.correct {
+    color: green;
+  }
+  
+.misplaced {
+    color: darkgoldenrod;
+  }
+/* div {
+    grid-row-start: 2;
+	grid-row-end: 4;
+    grid-column-start: 2;
+} */
